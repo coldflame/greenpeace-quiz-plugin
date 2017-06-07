@@ -13,6 +13,10 @@ I have shown selected indexes of questions on result dialog due to shortage of t
 
 I have created a plugin because it can be used now anywhere else on same page or on another page, just need to provide questions details as shown below. 
 
+#### Prototype
+    - For prototype purpose only questions are added other wise more details like Quiz title can also be part of plugin,
+    - Same like header and footer can also be controlled from plugin. 
+    - More animation can be added to make things interactive. 
 
 ## Demo And Usage
 
@@ -26,11 +30,6 @@ To initialize your quiz:
         questions = []
         // options can be added
     });
-    
-## Prototype
-    * For prototype purpose only questions are added other wise more details like Quiz title can also be part of plugin,
-    * Same like header and footer can also be controlled from plugin. 
-    * More animation can be added to make things interactive. 
 
 
 ## Base Config Options
