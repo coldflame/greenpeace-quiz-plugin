@@ -3,7 +3,7 @@ A jQuery plugin on top of twitter bootstrap for creating dynamic quizzes.
 
 [View the demo here](0)
 
-##Libraries used. 
+## Libraries used. 
 
 I have used Twitter bootstrap, to make it responsive and development fast. Used its modal dialog only. 
 I have made my own plugin for the quizzes. It is a prototype there are lot of things that can be added. 
@@ -24,13 +24,14 @@ To initialize your quiz:
     });
     
 ## Prototype
-    **For prototype purpose only questions are added other wise more details like Quiz title can also be part of plugin,
-    **Same like header and footer can also be controlled from plugin. 
+    ** For prototype purpose only questions are added other wise more details like Quiz title can also be part of plugin,
+    ** Same like header and footer can also be controlled from plugin. 
+    ** More animation can be added to make things interactive. 
 
 
 ## Base Config Options
 
-See `Index.html`
+See `Index.html` for implementation. 
 
     var questionsJSON = [ {"type":"text", 
                           "questionText": "Pick an animal",
