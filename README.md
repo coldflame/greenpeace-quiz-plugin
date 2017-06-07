@@ -12,11 +12,20 @@ I have shown selected indexes of questions on result dialog due to shortage of t
 ## Purpose for creating Plugin
 
 I have created a plugin because it can be used now anywhere else on same page or on another page, just need to provide questions details as shown below. 
-
-#### Prototype
     - For prototype purpose only questions are added other wise more details like Quiz title can also be part of plugin,
     - Same like header and footer can also be controlled from plugin. 
     - More animation can be added to make things interactive. 
+
+### An overview of design. 
+- First question is loaded by default, you can see the count 1 of 6 on right side. 
+- Back button is disabled because it is first step, Next button is enabled because it has more questions, if you press Next button a message will be show saying, _ Please select an option to proceed _. 
+- Hovering any image will show a select button and pressing that button , image option will be selected. 
+- As you move forward using Next button, you will see count will increase i.e 2 Of 6.
+- Back button is enabled as you will be on 2nd question. 
+- This plugin has ability to show text type choices as well. you can see that as question 4. 
+- Clicking text row will select and check shown checkbox as well. 
+- As you are on final step, Next button will be changed into Finish. 
+- Pressing Finish button, you will see a dialog as result. 
 
 ## Demo And Usage
 
