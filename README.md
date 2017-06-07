@@ -16,16 +16,19 @@ I have created a plugin because it can be used now anywhere else on same page or
     - Same like header and footer can also be controlled from plugin. 
     - More animation can be added to make things interactive. 
 
-### An overview of design. 
+### An overview of UX/UI Experience. 
 - First question is loaded by default, you can see the count 1 of 6 on right side. 
 - Back button is disabled because it is first step, Next button is enabled because it has more questions, if you press Next button a message will be show saying, _ Please select an option to proceed _. 
 - Hovering any image will show a select button and pressing that button , image option will be selected. 
+- After selection, you will see on selected image, select button will not be shown. 
 - As you move forward using Next button, you will see count will increase i.e 2 Of 6.
 - Back button is enabled as you will be on 2nd question. 
 - This plugin has ability to show text type choices as well. you can see that as question 4. 
 - Clicking text row will select and check shown checkbox as well. 
 - As you are on final step, Next button will be changed into Finish. 
 - Pressing Finish button, you will see a dialog as result. 
+- All questions html is not generated at once, as you move to some question only that html is created and displayed. If you have lot of questions then page have less html which is shown to user. 
+- When an element is selected you go back and fourth, code logic always remember your selection. 
 
 ## Demo And Usage
 
