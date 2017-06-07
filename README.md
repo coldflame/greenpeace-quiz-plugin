@@ -1,14 +1,14 @@
 
 A jQuery plugin on top of twitter bootstrap for creating dynamic quizzes. 
 
-[View the demo here](0)
+[View the demo here](https://coldflame.github.io/greenpeace-quiz-plugin/)
 
 ## Libraries used. 
 
 I have used Twitter bootstrap, to make it responsive and development fast. Used its modal dialog only. 
 I have made my own plugin for the quizzes. It is a prototype there are lot of things that can be added. 
 
-I have shown selected index on result dialog due to shortage of time. 
+I have shown selected indexes of questions on result dialog due to shortage of time. 
 
 ## Demo And Usage
 
