@@ -30,7 +30,8 @@
                     <div class="page-header">                      
                       <h3>1. Pick an animal </h3>
                     </div>
-                    <div class="image-type">
+                    <div class="qestion-body"> </div>
+                    <!--<div class="image-type">
                         <div class="row">
                             <div class="col-sm-6 col-md-4">
                                 <div class="thumbnail">
@@ -101,7 +102,7 @@
                                 </div>
                             </div>
                         </div>     
-                    </div>
+                    </div>-->
                     <!--<div class="list-group text-type">
                         <a href="#" class="list-group-item">
                            <input type="checkbox"> Cras justo odio
@@ -124,5 +125,50 @@
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/quiz.js"></script>
+        <script>
+            $(function(){
+                $(".quizme").quiz({
+                    questions :[
+                                {
+                                    type:'image',
+                                    questionText: 'Pick an animal',
+                                    options:[
+                                              {"label":"","category":"Greenpeace","imgSrc":"https://img.buzzfeed.com/buzzfeed-static/static/2014-10/16/9/enhanced/webdr09/enhanced-buzz-768-1413466971-1.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                              {"label":"","category":"Greenpeace","imgSrc":"https://img.buzzfeed.com/buzzfeed-static/static/2014-10/16/9/enhanced/webdr11/enhanced-buzz-1858-1413467065-16.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                              {"label":"","category":"Greenpeace","imgSrc":"https://img.buzzfeed.com/buzzfeed-static/static/2014-10/16/9/enhanced/webdr08/enhanced-buzz-18695-1413467110-38.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                              {"label":"","category":"Greenpeace","imgSrc":"https://img.buzzfeed.com/buzzfeed-static/static/2014-10/16/9/enhanced/webdr04/enhanced-buzz-12005-1413467194-0.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                              {"label":"","category":"Greenpeace","imgSrc":"https://img.buzzfeed.com/buzzfeed-static/static/2014-10/16/9/enhanced/webdr08/enhanced-buzz-18673-1413467253-26.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                              {"label":"","category":"Greenpeace","imgSrc":"https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr10/enhanced-buzz-21284-1413556208-0.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                            ]
+                                },
+                                {
+                                    type:'image',
+                                    questionText: 'What is your ideal weekend activity',
+                                    options:[
+                                              {"label":"Ice Skating","category":"Greenpeace","imgSrc":"https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr11/enhanced-buzz-23368-1413555753-4.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                              {"label":"Scuba Diving","category":"Greenpeace","imgSrc":"https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr09/enhanced-buzz-23097-1413555791-1.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                              {"label":"A Long Walk in the Woods","category":"Greenpeace","imgSrc":"https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr04/enhanced-buzz-18423-1413555837-9.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                              {"label":"Cooking","category":"Greenpeace","imgSrc":"https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr11/enhanced-buzz-23465-1413555874-3.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                              {"label":"Cycling","category":"Greenpeace","imgSrc":"https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr08/enhanced-buzz-3375-1413555918-3.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                              {"label":"Shopping","category":"Greenpeace","imgSrc":"https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr11/enhanced-buzz-23390-1413556018-11.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                            ]
+                                },
+                                {
+                                    type:'text',
+                                    questionText: 'People would describe you as..',
+                                    options:[
+                                              {"text":"Trustworthy and steadfast"},
+                                              {"text":"Spontaneous and easy going"},
+                                              {"text":"Tough and stoic"},
+                                              {"text":"Pure and earthy"},
+                                              {"text":"Fashionable and hip"},
+                                              {"text":"Bubbly and energetic"},
+                                            ]
+                                }
+                              ]
+                })
+            })
+        </script>
     </body>
 </html>
