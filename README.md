@@ -1,7 +1,7 @@
 
 A jQuery plugin on top of twitter bootstrap for creating dynamic quizzes.
 
-[View the demo here][0]
+[View the demo here](https://coldflame.github.io/greenpeace-quiz-plugin/)
 
 ## Demo And Usage
 
