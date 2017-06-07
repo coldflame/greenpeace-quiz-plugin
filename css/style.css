@@ -17,7 +17,7 @@
     width: 800px;
   }
 }
-.image-type .thumbnail{
+.image-type .thumbnail,.panel-footer{
     position: relative;
 }
 .image-type .thumbnail.active{
@@ -48,6 +48,9 @@
 .image-type .thumbnail:hover .select-mask, .image-type .thumbnail:hover .select-button{
     display:block;
 }
+.image-type .thumbnail.active:hover .select-mask, .image-type .thumbnail.active:hover .select-button{
+    display:none;
+}
 .image-type .thumbnail .caption h4{
     text-align: center;
 }
@@ -60,4 +63,10 @@
 }
 .text-type .list-group-item{
     font-size: 18px;
+}
+.quiz-count{
+    margin-top:-32px;
+    font-size:16px;
+    font-weight: bold;
+    font-style: italic;
 }

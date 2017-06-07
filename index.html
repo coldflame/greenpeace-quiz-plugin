@@ -29,6 +29,7 @@
                     <div class="panel-body panel-primary">                                 
                         <div class="page-header">                      
                             <h3>1. Pick an animal </h3>
+                            <div class="pull-right quiz-count"><span class="current-page">0</span> <u>Of</u> <span class="total-page">0</span></div>
                         </div>
                         <div class="qestion-body"> </div>
                         <!--<div class="image-type">
@@ -116,8 +117,11 @@
                        </div>-->
 
                     </div>
-                    <div class="panel-footer"><button type="button" class="btn btn-primary disabled pull-left btn-back">&lt;</button> <button type="button" class="btn btn-primary pull-right btn-next">Next &nbsp;&gt;</button>
-                        <div class="clearfix"></div></div>
+                    <div class="panel-footer">
+                        <button type="button" class="btn btn-primary disabled pull-left btn-back"><span aria-hidden="true">«</span></button>                         
+                        <button type="button" class="btn btn-primary pull-right btn-next">Next <span aria-hidden="true">»</span></button>
+                        <div class="clearfix"></div>                            
+                    </div>
                 </div>    
             </div>      
         </div>
@@ -155,6 +159,18 @@
                             ]
                         },
                         {
+                            type: 'image',
+                            questionText: 'If you could live anywhere, where would it be?',
+                            options: [
+                                {"label": "", "category": "tambaco / Via Flickr", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr10/enhanced-buzz-21294-1413556472-1.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                {"label": "", "category": "pandiyan / Via Flickr", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr10/enhanced-buzz-27251-1413556510-0.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                {"label": "", "category": "Greenpeace", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr11/enhanced-buzz-26204-1413556551-1.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                {"label": "", "category": "baronreznik / Via Flickr", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr04/enhanced-buzz-13806-1413556650-8.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                {"label": "", "category": "starsantique / Via Flickr", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr08/enhanced-buzz-4600-1413556706-0.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                {"label": "", "category": "Greenpeace", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr09/enhanced-buzz-22420-1413556759-17.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                            ]
+                        },
+                        {
                             type: 'text',
                             questionText: 'People would describe you as..',
                             options: [
@@ -165,10 +181,52 @@
                                 {"text": "Fashionable and hip"},
                                 {"text": "Bubbly and energetic"},
                             ]
+                        },
+                        {
+                            type: 'image',
+                            questionText: 'If you won a lot of money, what would you spend it on?',
+                            options: [
+                                {"label": "All the clothes", "category": "Greenpeace", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr05/enhanced-buzz-23991-1413557793-6.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                {"label": "A trip to the North Pole", "category": "Greenpeace", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr09/enhanced-buzz-23589-1413557847-18.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                {"label": "A GIANT wind turbine", "category": "Greenpeace", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr09/enhanced-buzz-22258-1413557904-16.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                {"label": "A Sailing Boat", "category": "Greenpeace", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr02/enhanced-buzz-30658-1413557940-11.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                {"label": "Food. Lots and lots of food", "category": "Greenpeace", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/11/enhanced/webdr08/enhanced-buzz-3405-1413558006-1.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                {"label": "Thousands of plants", "category": "Greenpeace", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/11/enhanced/webdr08/enhanced-buzz-3341-1413558072-16.jpg?downsize=715:*&output-format=auto&output-quality=auto"}
+                            ]
+                        }
+                        ,
+                        {
+                            type: 'image',
+                            questionText: 'What is your favourite color?',
+                            options: [
+                                {"label": "", "category": "", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/24/11/enhanced/webdr07/enhanced-buzz-19570-1414164444-21.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                {"label": "", "category": "", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/24/11/enhanced/webdr05/enhanced-buzz-8791-1414164614-19.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                {"label": "", "category": "", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/24/11/enhanced/webdr04/enhanced-buzz-504-1414164707-16.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                {"label": "", "category": "", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/24/11/enhanced/webdr05/enhanced-buzz-8888-1414165086-13.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                {"label": "", "category": "", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/24/11/enhanced/webdr09/enhanced-buzz-6884-1414165128-0.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                                {"label": "", "category": "", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/24/11/enhanced/webdr04/enhanced-buzz-1186-1414165165-7.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
+                            ]
                         }
                     ]
                 })
             })
         </script>
+        <div class="modal fade" tabindex="-1" role="dialog" id="result_dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Which Greenpeace Campaign Are You?</h4>
+                </div>
+                <div class="modal-body">
+                  <h4>You got:</h4>
+                  <small>Above are the index numbers, we can write the logic to show results.</small>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                  
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
     </body>
 </html>
