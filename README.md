@@ -63,12 +63,12 @@ See `Index.html` for implementation.
                                 {"label": "", "category": "Greenpeace", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr10/enhanced-buzz-21284-1413556208-0.jpg?downsize=715:*&output-format=auto&output-quality=auto"}
                            ]
     // For text type
-    var optionsJSON    = [ {"label": "All the clothes", "category": "Greenpeace", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr05/enhanced-buzz-23991-1413557793-6.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
-                                {"label": "A trip to the North Pole", "category": "Greenpeace", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr09/enhanced-buzz-23589-1413557847-18.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
-                                {"label": "A GIANT wind turbine", "category": "Greenpeace", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr09/enhanced-buzz-22258-1413557904-16.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
-                                {"label": "A Sailing Boat", "category": "Greenpeace", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr02/enhanced-buzz-30658-1413557940-11.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
-                                {"label": "Food. Lots and lots of food", "category": "Greenpeace", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/11/enhanced/webdr08/enhanced-buzz-3405-1413558006-1.jpg?downsize=715:*&output-format=auto&output-quality=auto"},
-                                {"label": "Thousands of plants", "category": "Greenpeace", "imgSrc": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/11/enhanced/webdr08/enhanced-buzz-3341-1413558072-16.jpg?downsize=715:*&output-format=auto&output-quality=auto"}
+    var optionsJSON    = [ {"text": "Trustworthy and steadfast"},
+                                {"text": "Spontaneous and easy going"},
+                                {"text": "Tough and stoic"},
+                                {"text": "Pure and earthy"},
+                                {"text": "Fashionable and hip"},
+                                {"text": "Bubbly and energetic"}
                            ]                     
                            
 
